@@ -1,0 +1,118 @@
+html {
+    font-size: calc(15px + 0.390625vw);
+  }
+  
+body {
+font-family: 'Orbitron', sans-serif;
+}
+
+.bg-image {
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321034-optimized.jpg");
+	background-size: cover;
+    background-repeat: repeat-y;
+
+  }
+  
+.navbar {
+    background-color: black !important;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul>li>a, #contact-title {
+    color: #F5F5F7 !important;
+  }
+  
+ul>li>a:hover, .nav-link.active {
+    color: #D51506 !important;
+}
+
+#contact-title {
+    margin-top: 5vh !important;
+    margin-bottom: 3vh !important;
+}
+
+ul>li>a, #contact-title {
+    color: #F5F5F7 !important;
+    font-size: 1rem !important;
+}
+
+#contact-text-title {
+    color: #D51506 !important;
+    font-size: 2rem;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+#social-media-text {
+    font-size: 1rem;
+    filter: drop-shadow(5px 5px 10px black);
+    color: #F5F5F7 !important;
+}
+
+.contact-details {
+    font-size: 0.8rem;
+    filter: drop-shadow(5px 5px 10px black);
+    color: #F5F5F7;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    color: #D51506;
+    transform: translateY(8px);
+}
+
+/* Form */
+
+
+.form, .form input, .form textarea {
+    color: #F5F5F7;
+    background: rgba( 19, 18, 18, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form .title {
+    font-size: 1rem;
+}
+
+.form input, .form textarea {
+    outline: 0;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border-radius: 8px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1rem;
+}
+
+.form input {
+    height: 50px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 5rem;
+    resize: none;
+}
+
+.form button {
+    background: rgba( 19, 18, 18, 0.55 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 6rem;
+    font-size: 0.70rem !important;
+    font-weight: bold;
+    color: #D51506;
+}
+      
+.form button:hover {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color: #D51506;
+}

@@ -1,0 +1,131 @@
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-image {
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321034-optimized.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+#landing-section {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#intro-name, #position, ul>li>a, .contact-details {
+  color: #F5F5F7 !important;
+}
+
+ul>li>a:hover, .contact-details:hover, .nav-link.active, .active {
+  color: #D51506 !important;
+}
+
+ul>li>a:hover::after {
+  transform: scaleX(1);
+}
+
+#intro-subname {
+  color: #D51506;
+  font-size: 1rem;
+}
+
+#intro-name {
+  font-size: 2.5rem;
+}
+
+#position {
+  font-size: 2rem;
+}
+
+.contact-details, ul>li>a {
+  font-size: 1rem;
+}
+
+ul>li>a, .contact-details {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul>li>a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #D51506;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+@keyframes typing {
+  0%, 40% { content: ""; }
+  1%, 39% { content: "J"; }
+  2%, 38% { content: "Jr"; }
+  3%, 37% { content: "Jr."; }
+  4%, 36% { content: "Jr. R"; }
+  5%, 35% { content: "Jr. R&"; }
+  6%, 34% { content: "Jr. R&D"; }
+  7%, 33% { content: "Jr. R&D E"; }
+  8%, 32% { content: "Jr. R&D En"; }
+  9%, 31% { content: "Jr. R&D Eng"; }
+  10%, 30% { content: "Jr. R&D Engi"; }
+  11%, 29% { content: "Jr. R&D Engin"; }
+  12%, 28% { content: "Jr. R&D Engine"; }
+  13%, 27% { content: "Jr. R&D Enginee"; }
+  14%, 26% { content: "Jr. R&D Engineer"; }
+
+  40%, 75% { content: ""; }
+  41%, 74% { content: "W"; }
+  42%, 73% { content: "We"; }
+  43%, 72% { content: "Web "; }
+  44%, 71% { content: "Web D"; }
+  45%, 70% { content: "Web De"; }
+  46%, 69% { content: "Web Dev"; }
+  47%, 68% { content: "Web Deve"; }
+  48%, 67% { content: "Web Devel"; }
+  49%, 66% { content: "Web Develo"; }
+  50%, 65% { content: "Web Develop"; }
+  51%, 64% { content: "Web Develope"; }
+  52%, 63% { content: "Web Developer"; }
+
+  75%, 95% { content: ""; }
+  76%, 94% { content: "G"; }
+  77%, 93% { content: "Ga"; }
+  78%, 92% { content: "Gam"; }
+  79%, 91% { content: "Game"; }
+  80%, 90% { content: "Gamer"; }
+
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+  color: #D51506;
+  font-weight: bold;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}

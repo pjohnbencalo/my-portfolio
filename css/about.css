@@ -1,0 +1,103 @@
+html {
+    font-size: calc(15px + 0.390625vw);
+  }
+  
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bg-image {
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321034-optimized.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+  
+.navbar {
+    background-color: black !important;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul>li>a, #about-title, #interests-title{
+    color: #F5F5F7 !important;
+    font-size: 1rem !important;
+}
+
+#name, #age, #description {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #F5F5F7 !important;
+    font-size: 1rem !important;
+}
+
+#name-title, #age-title, #description-title {
+    color: #D51506 !important;
+    font-size: 1rem !important;
+}
+.icon-box {
+    color: #F5F5F7 !important;
+    font-size: 0.75rem !important;
+}
+  
+ul>li>a:hover, .nav-link.active {
+    color: #D51506 !important;
+}
+
+#about-title {
+    margin-top: 5vh !important;
+    margin-bottom: 3vh !important;
+}
+
+#interests-title {
+    margin-bottom: 3vh !important;
+}
+
+#my-picture {
+    width: calc(15rem + 2vw);
+    height: auto;
+}
+
+.icon-box {
+    background-color: rgba(43, 43, 43, 1);
+    height: 1rem;
+    width: 12rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem;
+}
+
+.icon-box:hover {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.ri-steam-fill, .ri-netflix-fill, .ri-code-box-fill, .ri-smartphone-line, .ri-spotify-fill, .ri-book-2-fill {
+    font-size: 1rem !important;
+    margin-right: 0.5rem;
+}
+
+.ri-netflix-fill {
+    color: red;
+}
+
+.ri-steam-fill {
+    color: blue;
+}
+
+.ri-code-box-fill {
+    color: orange;
+}
+
+.ri-smartphone-line {
+    color: violet;
+}
+
+.ri-spotify-fill {
+    color: green;
+}
+
+.ri-book-2-fill {
+    color: pink;
+}
