@@ -21,7 +21,7 @@ font-family: 'Orbitron', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-ul>li>a, #contact-title {
+ul>li>a {
     color: #F5F5F7 !important;
   }
   
@@ -30,7 +30,6 @@ ul>li>a:hover, .nav-link.active {
 }
 
 #contact-title {
-    margin-top: 5vh !important;
     margin-bottom: 3vh !important;
 }
 
