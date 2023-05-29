@@ -30,7 +30,7 @@ ul>li>a:hover, .nav-link.active {
 }
 
 #contact-title {
-    margin-bottom: 3vh !important;
+    margin-top : 5vh !important;
 }
 
 ul>li>a, #contact-title {
@@ -86,7 +86,7 @@ ul>li>a, #contact-title {
     border-radius: 8px;
     width: 100%;
     font-family: 'Open Sans', sans-serif !important;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .form input {
